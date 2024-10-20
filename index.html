@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrean</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="profile">
+        <div id="bio">
+          <img src="pfp.jpg" id="photo-profile" alt="" />
+          <article>
+            <h1>Dionisius Andrean Sihombing</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus distinctio temporibus nulla repudiandae, voluptas
+              sequi sint voluptatum, debitis cumque blanditiis quia delectus
+              repellat neque itaque, esse hic? Inventore, ullam sapiente.
+            </p>
+            <div id="contacts">
+              <ul>
+                <li>
+                  <a href="">Linkedin</a>
+                </li>
+                <li>
+                  <a href="">Github</a>
+                </li>
+                <li>
+                  <a href="">X/Twitter</a>
+                </li>
+                <li>
+                  <a href="">Email</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <article id="list-skills">
+          <h1>Skills</h1>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SCSS</li>
+            <li>Javascript</li>
+            <li>Typescript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+            <li>Tensorflow</li>
+            <li>Python</li>
+            <li>Streamlit</li>
+          </ul>
+        </article>
+      </div>
+      <div id="list-projects">
+        <nav>
+          <div id="projects-type">
+            <li>
+              <input
+                id="all-project"
+                type="radio"
+                name="projects-type"
+                value="All"
+              />
+              <label for="all-project">All</label>
+            </li>
+            <li>
+              <input
+                id="web-project"
+                type="radio"
+                name="projects-type"
+                value="Web Development"
+              />
+              <label for="web-project">Web</label>
+            </li>
+            <li>
+              <input
+                id="data-project"
+                type="radio"
+                name="projects-type"
+                value="Machine Learning"
+              />
+              <label for="data-project">Data</label>
+            </li>
+          </div>
+        </nav>
+        <ul id="projects"></ul>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

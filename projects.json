@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Classify Customer Booking Behaviour",
+    "type": "Machine Learning",
+    "handson": "",
+    "github": "https://github.com/imandreans/Customer-Booking-Behavior",
+    "video": "",
+    "article": ""
+  },
+  {
+    "name": "Rock Paper Scissors Prediction",
+    "type": "Machine Learning",
+    "handson": "https://rock-paper-sciapprs-prediction-2wwqzpktazizk79usjlqmn.streamlit.app/",
+    "github": "https://github.com/imandreans/Rock-Paper-Scissors-Prediction",
+    "video": "",
+    "article": ""
+  },
+  {
+    "name": "British Airways Analysis",
+    "type": "Machine Learning",
+    "handson": "",
+    "github": "https://github.com/imandreans/british-airways-analysis",
+    "video": "",
+    "article": ""
+  },
+  {
+    "name": "E-Commerce",
+    "type": "Web Development",
+    "handson": "https://e-commerce-fe-three.vercel.app/",
+    "github": "https://github.com/imandreans/E-Commerce",
+    "video": "",
+    "article": ""
+  },
+  {
+    "name": "Book Collection",
+    "type": "Web Development",
+    "handson": "https://book-collection-fe.vercel.app/",
+    "github": "https://github.com/imandreans/Book-Collection",
+    "video": "",
+    "article": ""
+  },
+  {
+    "name": "Heart Disease Prediction",
+    "type": "Machine Learning",
+    "handson": "",
+    "github": "https://github.com/imandreans/Heart-Disease-Prediction",
+    "video": "",
+    "article": ""
+  }
+]
