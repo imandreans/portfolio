@@ -165,8 +165,12 @@ h1 {
   }
 }
 @media (max-width: 1000px) {
+  #bio {
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
   body {
-    margin-top: 100px;
     align-items: flex-start;
   }
   main {
@@ -179,7 +183,43 @@ h1 {
   }
 }
 @media (max-width: 480px) {
-  main {
-    gap: 50px;
+  h1 {
+    font-size: 1rem;
+  }
+  #bio {
+    gap: 10px;
+    h1 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: x-small;
+    }
+    article {
+      gap: 5px;
+    }
+    #contacts ul {
+      li a {
+        font-size: smaller;
+      }
+    }
+  }
+  #bio #photo-profile {
+    height: 60px;
+  }
+  #list-skills {
+    h1 {
+      font-size: 1rem;
+    }
+    ul {
+      gap: 5px;
+    }
+    ul li {
+      font-size: smaller;
+    }
+  }
+  #list-projects {
+    #projects-type {
+      gap: 60px;
+    }
   }
 }
