@@ -1,6 +1,7 @@
 const container = document.getElementById("projects");
 const typeBtn = document.querySelectorAll("input[type=radio]");
-console.log(container);
+
+
 fetch("./projects.json")
   .then((request) => {
     if (!request.ok) {

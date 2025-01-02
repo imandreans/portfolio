@@ -1,7 +1,7 @@
 [
   {
     "name": "Classify Customer Booking Behaviour",
-    "type": "Machine Learning",
+    "type": "Data",
     "handson": "",
     "github": "https://github.com/imandreans/Customer-Booking-Behavior",
     "video": "",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Rock Paper Scissors Prediction",
-    "type": "Machine Learning",
+    "type": "Data",
     "handson": "https://rock-paper-sciapprs-prediction-2wwqzpktazizk79usjlqmn.streamlit.app/",
     "github": "https://github.com/imandreans/Rock-Paper-Scissors-Prediction",
     "video": "",
@@ -17,7 +17,7 @@
   },
   {
     "name": "British Airways Analysis",
-    "type": "Machine Learning",
+    "type": "Data",
     "handson": "",
     "github": "https://github.com/imandreans/british-airways-analysis",
     "video": "",
@@ -25,7 +25,7 @@
   },
   {
     "name": "E-Commerce",
-    "type": "Web Development",
+    "type": "Soft-Eng",
     "handson": "https://e-commerce-fe-three.vercel.app/",
     "github": "https://github.com/imandreans/E-Commerce",
     "video": "",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Book Collection",
-    "type": "Web Development",
+    "type": "Soft-Eng",
     "handson": "https://book-collection-fe.vercel.app/",
     "github": "https://github.com/imandreans/Book-Collection",
     "video": "",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Heart Disease Prediction",
-    "type": "Machine Learning",
+    "type": "Data",
     "handson": "",
     "github": "https://github.com/imandreans/Heart-Disease-Prediction",
     "video": "",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Task Tracker",
-    "type": "Others",
+    "type": "Soft-Eng",
     "handson": "",
     "github": "https://github.com/imandreans/task-tracker",
     "video": "",
@@ -57,9 +57,23 @@
   },
   {
     "name": "Data Structure and Algorithm from Scratch with Java",
-    "type": "Others",
+    "type": "Soft-Eng",
     "handson": "",
     "github": "https://github.com/imandreans/dsa",
+    "video": "",
+    "article": ""
+  },{
+    "name": "Weather API",
+    "type": "Soft-Eng",
+    "handson": "",
+    "github": "https://github.com/imandreans/weather-api",
+    "video": "",
+    "article": ""
+  },{
+    "name": "Personal Blog",
+    "type": "Soft-Eng",
+    "handson": "",
+    "github": "https://github.com/imandreans/personal-blog",
     "video": "",
     "article": ""
   }
