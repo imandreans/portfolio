@@ -1,86 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <main>
-    <div id="profile">
-      <div id="bio">
-        <img src="pfp.jpg" id="photo-profile" alt="" />
-        <article>
-          <h1>Dionisius Andrean Sihombing</h1>
-          <p>
-            I studied Informatics at Sanata Dharma University and am currently dedicated to studying Software Engineering and Artificial Intelligence. I frequently update my learning progress on X. I’m eager to expand my knowledge and skills to elevate my career.
-          </p>
-          <div id="contacts">
-            <ul>
-              <li>
-                <a href="https://www.linkedin.com/in/andrean-sihombing/">Linkedin</a>
-              </li>
-              <li>
-                <a href="https://github.com/imandreans">Github</a>
-              </li>
-              <li>
-                <a href="https://x.com/imandreans">X/Twitter</a>
-              </li>
-              <li>
-                <a href="mailto:dionisius.andreans@gmail.com">Email</a>
-              </li>
-            </ul>
-          </div>
+  <body>
+    <main>
+      <div id="profile">
+        <div id="bio">
+          <img
+            src="pfp.png"
+            id="photo-profile"
+            alt="" />
+          <article>
+            <h1>Dionisius Andrean Sihombing</h1>
+            <p>
+              I studied Informatics at Sanata Dharma University and am currently
+              dedicated to studying Software Engineering and Artificial
+              Intelligence. I frequently update my learning progress on X. I’m
+              eager to expand my knowledge and skills to elevate my career.
+            </p>
+            <div id="contacts">
+              <ul>
+                <li>
+                  <a href="https://www.linkedin.com/in/andrean-sihombing/"
+                    >Linkedin</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/imandreans">Github</a>
+                </li>
+                <li>
+                  <a href="https://x.com/imandreans">X/Twitter</a>
+                </li>
+                <li>
+                  <a href="mailto:dionisius.andreans@gmail.com">Email</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <article id="list-skills">
+          <h1 class="title">Skills</h1>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SCSS</li>
+            <li>Javascript</li>
+            <li>Typescript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+            <li>Tensorflow</li>
+            <li>Python</li>
+            <li>Streamlit</li>
+            <li>Flask</li>
+            <li>RESTful API</li>
+            <li>Redis</li>
+          </ul>
         </article>
       </div>
-      <article id="list-skills">
-        <h1 class="title">Skills</h1>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>SCSS</li>
-          <li>Javascript</li>
-          <li>Typescript</li>
-          <li>React</li>
-          <li>Node.js</li>
-          <li>Java</li>
-          <li>SQL</li>
-          <li>MongoDB</li>
-          <li>Tensorflow</li>
-          <li>Python</li>
-          <li>Streamlit</li>
-          <li>Flask</li>
-          <li>RESTful API</li>
-          <li>Redis</li>
-        </ul>
-      </article>
-    </div>
-    <div id="list-projects">
-      <nav>
-        <div id="projects-type">
-          <h1>Projects</h1>
-          <li>
-            <input id="all-project" type="radio" name="projects-type" value="All" checked />
-            <label for="all-project">All</label>
-          </li>
-          <li>
-            <input id="soft-eng" type="radio" name="projects-type" value="Soft-Eng" />
-            <label for="soft-eng">Software Engineering</label>
-          </li>
-          <li>
-            <input id="data" type="radio" name="projects-type" value="Data" />
-            <label for="data">Data</label>
-          </li>
-      
-        </div>
-      </nav>
-      <ul id="projects"></ul>
-    </div>
-  </main>
-  <script src="script.js"></script>
-</body>
-
+      <div id="list-projects">
+        <nav>
+          <div id="projects-type">
+            <h1>Projects</h1>
+            <li>
+              <input
+                id="all-project"
+                type="radio"
+                name="projects-type"
+                value="All"
+                checked />
+              <label for="all-project">All</label>
+            </li>
+            <li>
+              <input
+                id="soft-eng"
+                type="radio"
+                name="projects-type"
+                value="Soft-Eng" />
+              <label for="soft-eng">Software Engineering</label>
+            </li>
+            <li>
+              <input
+                id="data"
+                type="radio"
+                name="projects-type"
+                value="Data" />
+              <label for="data">Data</label>
+            </li>
+          </div>
+        </nav>
+        <ul id="projects"></ul>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
