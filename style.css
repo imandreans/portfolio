@@ -87,7 +87,7 @@ h1 {
 }
 #list-projects {
   min-width: 50%;
-  #projects-type { 
+  #projects-type {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -95,7 +95,7 @@ h1 {
     margin-bottom: 15px;
     li {
       position: relative;
-      input{
+      input {
         position: absolute;
         top: 0;
         left: 0;
@@ -117,7 +117,6 @@ h1 {
       input[type="radio"]:hover + label {
         color: var(--orange);
       }
-      
     }
   }
   #projects {
@@ -139,7 +138,8 @@ h1 {
       div {
         grid-row: 2;
         display: flex;
-        justify-content: space-between;
+        gap: 20px;
+        /* justify-content: space-between; */
         a {
           text-decoration: none;
           color: white;

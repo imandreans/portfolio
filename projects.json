@@ -2,7 +2,7 @@
   {
     "name": "Classify Customer Booking Behaviour",
     "type": "Data",
-    "handson": "",
+    "handson": "https://ypp43fruq6zeyxuyetmtdb.streamlit.app/",
     "github": "https://github.com/imandreans/Customer-Booking-Behavior",
     "video": "",
     "article": ""
@@ -56,31 +56,25 @@
     "article": ""
   },
   {
-    "name": "Data Structure and Algorithm from Scratch with Java",
-    "type": "Soft-Eng",
-    "handson": "",
-    "github": "https://github.com/imandreans/dsa",
-    "video": "",
-    "article": ""
-  },{
     "name": "Weather API",
     "type": "Soft-Eng",
-    "handson": "",
+    "handson": "https://weather-api-eight-beryl.vercel.app/",
     "github": "https://github.com/imandreans/weather-api",
     "video": "",
     "article": ""
-  },{
+  },
+  {
     "name": "Personal Blog",
     "type": "Soft-Eng",
-    "handson": "",
+    "handson": "https://expense-tracker-api-xi.vercel.app/",
     "github": "https://github.com/imandreans/personal-blog",
     "video": "",
     "article": ""
-  }
-  ,{
+  },
+  {
     "name": "Expense Tracker API",
     "type": "Soft-Eng",
-    "handson": "",
+    "handson": "https://expense-tracker-api-xi.vercel.app/",
     "github": "https://github.com/imandreans/expense-tracker-api",
     "video": "",
     "article": ""

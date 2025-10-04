@@ -1,7 +1,6 @@
 const container = document.getElementById("projects");
 const typeBtn = document.querySelectorAll("input[type=radio]");
 
-
 fetch("./projects.json")
   .then((request) => {
     if (!request.ok) {
@@ -41,14 +40,12 @@ function displayItems(items) {
     const project = document.createElement("li");
     project.className = "project";
     // element with class project contains HTML below
-    const isVideoExist = item.video.length == 0 ? "none" : "inline";
     const isGithubExist = item.github.length == 0 ? "none" : "inline";
-    const isArticleExist = item.article.length == 0 ? "none" : "inline";
+    const isLiveSiteExist = item.handson.length == 0 ? "none" : "inline";
     project.innerHTML = `<h1>${item.name}</h1>
       <div>
         <a style='display: ${isGithubExist}' href="${item.github}" target="_blank" rel="noopener noreferrer"> <h2>Github</h2></a>
-        <a style='display: ${isVideoExist}' href="${item.video}"  rel="noopener noreferrer"> <h2 >Video</h2></a>
-        <a style='display: ${isArticleExist}' href="${item.article}"  rel="noopener noreferrer"> <h2>Article</h2></a>
+        <a style='display: ${isLiveSiteExist}' href="${item.handson}" target="_blank" rel="noopener noreferrer"> <h2>Live Site</h2></a>
       </div>`;
     // Append project to container
     container.appendChild(project);
